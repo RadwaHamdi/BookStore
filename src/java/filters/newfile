@@ -1,0 +1,3 @@
+HttpSession session = request.getSession(true); 
+session.setAttribute("loggedIn", new String("true")); 
+    response.sendRedirect("ContentServletURL");
